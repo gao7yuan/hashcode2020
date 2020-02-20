@@ -76,6 +76,9 @@ public class BookScanning {
     this.bookForLibrary.put(pickedIndex, new ArrayList<>(max.pickedBooks));
     this.days -= max.time;
     max.finished = true;
+    for (int pickBook : max.pickedBooks) {
+      scanned.add(pickBook);
+    }
 
     return max.score;
   }

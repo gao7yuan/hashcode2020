@@ -30,6 +30,9 @@ public class ReadFile {
       while ((line = br.readLine()) != null) {
         String[] lineElements = line.split(" ");
         if (readingMeta) {
+          if (lineElements.length != 3) {
+            break;
+          }
           ld.setNumBooks(Integer.parseInt(lineElements[0]));
           ld.setSignupCost(Integer.parseInt(lineElements[1]));
           ld.setOutputVol(Integer.parseInt(lineElements[2]));
@@ -52,34 +55,34 @@ public class ReadFile {
     return null;
   }
 
-  public static void main(String[] args) {
-    DataPackage dp = ReadFile.ReadFile(args[0]);
-    System.out.println(dp.getTotalNumBooks());
-    System.out.println(dp.getTotalNumLib());
-    System.out.println(dp.getTotalDaysAvail());
-    int[] referemceTable = dp.getScoreReference();
-    for (int a : referemceTable) {
-      System.out.println(a);
-    }
-    LibData lib2 = dp.getLibraries().get(0);
-    System.out.println(lib2.getNumBooks());
-    System.out.println(lib2.getSignupCost());
-    System.out.println(lib2.getOutputVol());
-    for (Pair pair : lib2.getBooks()) {
-      System.out.println(pair.getKey() + " : " + pair.getValue());
-    }
-
-    LibData lib = dp.getLibraries().get(1);
-    System.out.println(lib.getNumBooks());
-    System.out.println(lib.getSignupCost());
-    System.out.println(lib.getOutputVol());
-    for (Pair pair : lib.getBooks()) {
-      System.out.println(pair.getKey() + " : " + pair.getValue());
-    }
-
-    ;
-
-    System.out.println(lib2.getBooks().get(0).getValue());
-
-  }
+//  public static void main(String[] args) {
+//    DataPackage dp = ReadFile.ReadFile(args[0]);
+//    System.out.println(dp.getTotalNumBooks());
+//    System.out.println(dp.getTotalNumLib());
+//    System.out.println(dp.getTotalDaysAvail());
+//    int[] referemceTable = dp.getScoreReference();
+//    for (int a : referemceTable) {
+//      System.out.println(a);
+//    }
+//    LibData lib2 = dp.getLibraries().get(0);
+//    System.out.println(lib2.getNumBooks());
+//    System.out.println(lib2.getSignupCost());
+//    System.out.println(lib2.getOutputVol());
+//    for (Pair pair : lib2.getBooks()) {
+//      System.out.println(pair.getKey() + " : " + pair.getValue());
+//    }
+//
+//    LibData lib = dp.getLibraries().get(1);
+//    System.out.println(lib.getNumBooks());
+//    System.out.println(lib.getSignupCost());
+//    System.out.println(lib.getOutputVol());
+//    for (Pair pair : lib.getBooks()) {
+//      System.out.println(pair.getKey() + " : " + pair.getValue());
+//    }
+//
+//    ;
+//
+//    System.out.println(lib2.getBooks().get(0).getValue());
+//
+//  }
 }

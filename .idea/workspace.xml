@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e05dd14-ce55-4a02-ad33-a7af5b87d6f4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solution.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Solution.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/competetion/BookScanning.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/competetion/BookScanning.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/competetion/ReadFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/competetion/ReadFile.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +37,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/competetion" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -49,6 +50,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/competetion" />
     </key>
   </component>
@@ -121,7 +123,7 @@
       <option name="presentableId" value="Default" />
       <updated>1582066158343</updated>
       <workItem from="1582066163289" duration="6863000" />
-      <workItem from="1582220302055" duration="10797000" />
+      <workItem from="1582220302055" duration="11759000" />
     </task>
     <servers />
   </component>
@@ -133,22 +135,22 @@
       <screen x="0" y="23" width="1280" height="712" />
     </state>
     <state x="453" y="95" key="#com.intellij.ide.util.MemberChooser/0.23.1280.712@0.23.1280.712" timestamp="1582225086298" />
-    <state width="1238" height="271" key="GridCell.Tab.0.bottom" timestamp="1582233302848">
+    <state width="1238" height="143" key="GridCell.Tab.0.bottom" timestamp="1582234243270">
       <screen x="0" y="23" width="1280" height="712" />
     </state>
-    <state width="1238" height="271" key="GridCell.Tab.0.bottom/0.23.1280.712@0.23.1280.712" timestamp="1582233302848" />
-    <state width="1238" height="271" key="GridCell.Tab.0.center" timestamp="1582233302847">
+    <state width="1238" height="143" key="GridCell.Tab.0.bottom/0.23.1280.712@0.23.1280.712" timestamp="1582234243270" />
+    <state width="1238" height="143" key="GridCell.Tab.0.center" timestamp="1582234243268">
       <screen x="0" y="23" width="1280" height="712" />
     </state>
-    <state width="1238" height="271" key="GridCell.Tab.0.center/0.23.1280.712@0.23.1280.712" timestamp="1582233302847" />
-    <state width="1238" height="271" key="GridCell.Tab.0.left" timestamp="1582233302846">
+    <state width="1238" height="143" key="GridCell.Tab.0.center/0.23.1280.712@0.23.1280.712" timestamp="1582234243268" />
+    <state width="1238" height="143" key="GridCell.Tab.0.left" timestamp="1582234243267">
       <screen x="0" y="23" width="1280" height="712" />
     </state>
-    <state width="1238" height="271" key="GridCell.Tab.0.left/0.23.1280.712@0.23.1280.712" timestamp="1582233302846" />
-    <state width="1238" height="271" key="GridCell.Tab.0.right" timestamp="1582233302848">
+    <state width="1238" height="143" key="GridCell.Tab.0.left/0.23.1280.712@0.23.1280.712" timestamp="1582234243267" />
+    <state width="1238" height="143" key="GridCell.Tab.0.right" timestamp="1582234243270">
       <screen x="0" y="23" width="1280" height="712" />
     </state>
-    <state width="1238" height="271" key="GridCell.Tab.0.right/0.23.1280.712@0.23.1280.712" timestamp="1582233302848" />
+    <state width="1238" height="143" key="GridCell.Tab.0.right/0.23.1280.712@0.23.1280.712" timestamp="1582234243270" />
     <state width="1238" height="271" key="GridCell.Tab.1.bottom" timestamp="1582233302853">
       <screen x="0" y="23" width="1280" height="712" />
     </state>

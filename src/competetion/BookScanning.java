@@ -11,17 +11,24 @@ import javafx.util.Pair;
 
 public class BookScanning {
 
-  Set<Integer> scanned = new HashSet<>();
-  int[] scores; // score of each book. size = # of books
+  static Set<Integer> scanned = new HashSet<>();
+  int totalNumBooks; // score of each book. size = # of books
   int days; // total days allowed
   List<Integer> pickedLibraries = new ArrayList<>();
   Map<Integer, List<Integer>> bookForLibrary = new HashMap<>();
+  Library[] libraries;
 
-  int totalScan(Library[] libraries) {
+  public BookScanning(int totalNumBooks, int days, Library[] libraries) {
+    this.totalNumBooks = totalNumBooks;
+    this.days = days;
+    this.libraries = libraries;
+  }
+
+  int totalScan() {
     int totalScore = 0;
     int currentScore = -1;
-    while (scanned.size() < scores.length && this.days > 0 && currentScore != 0) {
-      currentScore = this.scan(libraries);
+    while (scanned.size() < totalNumBooks && this.days > 0 && currentScore != 0) {
+      currentScore = this.scan();
       totalScore += currentScore;
     }
     return totalScore;
@@ -29,10 +36,9 @@ public class BookScanning {
 
   /**
    * Pick what library to scan for this iteration and return the score gained for this iteration.
-   * @param libraries
    * @return
    */
-  int scan(Library[] libraries) {
+  int scan() {
     for (Library library : libraries) {
       if (library.finished) {
         continue;
@@ -70,17 +76,24 @@ public class BookScanning {
     this.bookForLibrary.put(pickedIndex, new ArrayList<>(max.pickedBooks));
     this.days -= max.time;
     max.finished = true;
+    for (int pickBook : max.pickedBooks) {
+      scanned.add(pickBook);
+    }
 
     return max.score;
   }
 
-  class Library {
+  public static class Library {
     Pair<Integer, Integer>[] books;
     int time; // for sign up
     int maxNumBooks;
     int score;
     boolean finished;
     List<Integer> pickedBooks = new ArrayList<>();
+
+    public Library() {
+
+    }
 
     public Library(Pair<Integer, Integer>[] books, int time, int maxNumBooks) {
       this.books = books;
@@ -92,6 +105,9 @@ public class BookScanning {
     }
 
     public void sortBooks() {
+      if (this.books == null) {
+        return;
+      }
       Arrays.sort(books, (book1, book2) -> book2.getValue() - book1.getValue());
     }
 
@@ -122,6 +138,6 @@ public class BookScanning {
       this.score = totalBookScore;
     }
   }
-  
+
 
 }

@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="8e05dd14-ce55-4a02-ad33-a7af5b87d6f4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solution.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Solution.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/competetion/BookScanning.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/competetion/BookScanning.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/competetion/ReadFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/competetion/ReadFile.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,14 +37,24 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/competetion" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Solution">
     <configuration name="Pizza" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="practice.Pizza" />
       <module name="GoogleHashCode2020" />
@@ -50,6 +62,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="competetion.Solution" />
+      <module name="GoogleHashCode2020" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="competetion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,6 +107,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Pizza" />
       </list>
     </recent_temporary>
@@ -96,7 +123,7 @@
       <option name="presentableId" value="Default" />
       <updated>1582066158343</updated>
       <workItem from="1582066163289" duration="6863000" />
-      <workItem from="1582220302055" duration="7182000" />
+      <workItem from="1582220302055" duration="11759000" />
     </task>
     <servers />
   </component>
@@ -108,41 +135,41 @@
       <screen x="0" y="23" width="1280" height="712" />
     </state>
     <state x="453" y="95" key="#com.intellij.ide.util.MemberChooser/0.23.1280.712@0.23.1280.712" timestamp="1582225086298" />
-    <state width="1238" height="289" key="GridCell.Tab.0.bottom" timestamp="1582073118008">
+    <state width="1238" height="143" key="GridCell.Tab.0.bottom" timestamp="1582234243270">
       <screen x="0" y="23" width="1280" height="712" />
     </state>
-    <state width="1238" height="289" key="GridCell.Tab.0.bottom/0.23.1280.712@0.23.1280.712" timestamp="1582073118008" />
-    <state width="1238" height="289" key="GridCell.Tab.0.center" timestamp="1582073118006">
+    <state width="1238" height="143" key="GridCell.Tab.0.bottom/0.23.1280.712@0.23.1280.712" timestamp="1582234243270" />
+    <state width="1238" height="143" key="GridCell.Tab.0.center" timestamp="1582234243268">
       <screen x="0" y="23" width="1280" height="712" />
     </state>
-    <state width="1238" height="289" key="GridCell.Tab.0.center/0.23.1280.712@0.23.1280.712" timestamp="1582073118006" />
-    <state width="1238" height="289" key="GridCell.Tab.0.left" timestamp="1582073118006">
+    <state width="1238" height="143" key="GridCell.Tab.0.center/0.23.1280.712@0.23.1280.712" timestamp="1582234243268" />
+    <state width="1238" height="143" key="GridCell.Tab.0.left" timestamp="1582234243267">
       <screen x="0" y="23" width="1280" height="712" />
     </state>
-    <state width="1238" height="289" key="GridCell.Tab.0.left/0.23.1280.712@0.23.1280.712" timestamp="1582073118006" />
-    <state width="1238" height="289" key="GridCell.Tab.0.right" timestamp="1582073118007">
+    <state width="1238" height="143" key="GridCell.Tab.0.left/0.23.1280.712@0.23.1280.712" timestamp="1582234243267" />
+    <state width="1238" height="143" key="GridCell.Tab.0.right" timestamp="1582234243270">
       <screen x="0" y="23" width="1280" height="712" />
     </state>
-    <state width="1238" height="289" key="GridCell.Tab.0.right/0.23.1280.712@0.23.1280.712" timestamp="1582073118007" />
-    <state width="1238" height="289" key="GridCell.Tab.1.bottom" timestamp="1582073118010">
+    <state width="1238" height="143" key="GridCell.Tab.0.right/0.23.1280.712@0.23.1280.712" timestamp="1582234243270" />
+    <state width="1238" height="271" key="GridCell.Tab.1.bottom" timestamp="1582233302853">
       <screen x="0" y="23" width="1280" height="712" />
     </state>
-    <state width="1238" height="289" key="GridCell.Tab.1.bottom/0.23.1280.712@0.23.1280.712" timestamp="1582073118010" />
-    <state width="1238" height="289" key="GridCell.Tab.1.center" timestamp="1582073118009">
+    <state width="1238" height="271" key="GridCell.Tab.1.bottom/0.23.1280.712@0.23.1280.712" timestamp="1582233302852" />
+    <state width="1238" height="271" key="GridCell.Tab.1.center" timestamp="1582233302850">
       <screen x="0" y="23" width="1280" height="712" />
     </state>
-    <state width="1238" height="289" key="GridCell.Tab.1.center/0.23.1280.712@0.23.1280.712" timestamp="1582073118009" />
-    <state width="1238" height="289" key="GridCell.Tab.1.left" timestamp="1582073118008">
+    <state width="1238" height="271" key="GridCell.Tab.1.center/0.23.1280.712@0.23.1280.712" timestamp="1582233302850" />
+    <state width="1238" height="271" key="GridCell.Tab.1.left" timestamp="1582233302849">
       <screen x="0" y="23" width="1280" height="712" />
     </state>
-    <state width="1238" height="289" key="GridCell.Tab.1.left/0.23.1280.712@0.23.1280.712" timestamp="1582073118008" />
-    <state width="1238" height="289" key="GridCell.Tab.1.right" timestamp="1582073118009">
+    <state width="1238" height="271" key="GridCell.Tab.1.left/0.23.1280.712@0.23.1280.712" timestamp="1582233302849" />
+    <state width="1238" height="271" key="GridCell.Tab.1.right" timestamp="1582233302851">
       <screen x="0" y="23" width="1280" height="712" />
     </state>
-    <state width="1238" height="289" key="GridCell.Tab.1.right/0.23.1280.712@0.23.1280.712" timestamp="1582073118009" />
-    <state x="128" y="23" key="SettingsEditor" timestamp="1582224738544">
+    <state width="1238" height="271" key="GridCell.Tab.1.right/0.23.1280.712@0.23.1280.712" timestamp="1582233302851" />
+    <state x="128" y="23" key="SettingsEditor" timestamp="1582232233924">
       <screen x="0" y="23" width="1280" height="712" />
     </state>
-    <state x="128" y="23" key="SettingsEditor/0.23.1280.712@0.23.1280.712" timestamp="1582224738544" />
+    <state x="128" y="23" key="SettingsEditor/0.23.1280.712@0.23.1280.712" timestamp="1582232233924" />
   </component>
 </project>
